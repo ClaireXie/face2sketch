@@ -43,10 +43,6 @@ elseif (strcmp( method,'icm'))
     %ICMDecoding =UGM_Decode_Greedy(nodePot,edgePot,edgeStruct);
     labelling=reshape(ICMDecoding,size(unary,2),size(unary,1))';
     
-elseif (strcmp( method,'graphcut'))
-    GCDecoding = UGM_Decode_GraphCut(nodePot,edgePot,edgeStruct);
-    labelling=reshape(GCDecoding,size(unary,2),size(unary,1))';
-
 elseif (strcmp( method,'lbp'))
     if (display)
         disp('Decode with the Loopy BP Algorithm ...');
