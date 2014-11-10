@@ -1,6 +1,7 @@
-function createTrainingData_color(ipDir, isDir, opFile, pSize)
+function [pImg, pImg_rgb, sImg] = ... 
+    createTrainingData_color(ipDir, isDir, opFile, pSize)
 
-addpath('utils\');
+addpath('utils/');
 
 %ipDir='../Dataset/photos/';
 %isDir='../Dataset/photos/';

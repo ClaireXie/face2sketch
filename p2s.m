@@ -26,7 +26,7 @@ outputDir = '../exp/syn-';
 
 % optimization methods
 method = 'lbp';
-% opptions:
+% options:
 % 1. trw: tree-reweighted max-product message passing
 % mex file provided under WINDOWS environment ONLY
 % You will need to compile this yourself if you wish to run it on other operating systems. 
